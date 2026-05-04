@@ -1,0 +1,25 @@
+{
+  "overview": "A complete single-page responsive website for Prakash Electronics, a trusted local electronics store in Bengaluru, India. Features a premium design with navy blue and electric orange branding, full product category showcase, brand carousel, contact section with embedded Google Maps, and mobile-optimized floating contact bar.",
+  "features": [
+    "Sticky navigation with clickable phone number",
+    "Hero section with Call Us Now and Get Directions CTAs",
+    "Product categories grid with hover animations (8 categories)",
+    "Brand logo carousel with greyscale-to-color hover (12 brands)",
+    "Trust badges section with store credentials",
+    "Contact section with embedded Google Maps and WhatsApp button",
+    "Mobile floating contact bar (Call + WhatsApp)",
+    "Fully responsive design optimized for all screen sizes"
+  ],
+  "category": "showcase",
+  "tags": [
+    "electronics",
+    "retail",
+    "local-business",
+    "bengaluru",
+    "india",
+    "landing-page",
+    "responsive",
+    "single-page"
+  ],
+  "last_updated": "2026-05-04T11:58:07.454Z"
+}
