@@ -23,7 +23,7 @@ export default function StickyNav() {
             className="text-accent fill-accent flex-shrink-0"
             aria-hidden="true"
           />
-          <span className="font-display font-bold text-lg tracking-tight leading-none">
+          <span className="font-display font-bold text-base tracking-tight leading-none">
             Prakash Electronics
           </span>
         </a>

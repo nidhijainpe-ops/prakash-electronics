@@ -18467,7 +18467,7 @@ function BrandsCarousel() {
                   children: /* @__PURE__ */ jsxRuntimeExports.jsx(
                     "span",
                     {
-                      className: "font-display font-bold text-2xl sm:text-3xl tracking-tight text-muted-foreground transition-smooth hover:text-primary cursor-default",
+                      className: "font-display font-bold text-xl sm:text-3xl tracking-tight text-muted-foreground transition-smooth hover:text-primary cursor-default",
                       style: {
                         filter: "grayscale(100%)",
                         transitionProperty: "filter, color"
@@ -18996,7 +18996,7 @@ function ContactSection() {
       children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-accent font-semibold text-sm uppercase tracking-widest mb-4", children: "Find Us" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-bold text-primary-foreground text-3xl sm:text-4xl lg:text-5xl leading-tight", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-bold text-primary-foreground text-2xl sm:text-4xl lg:text-5xl leading-tight", children: [
             "Visit Us or ",
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-accent", children: "Get in Touch" })
           ] }),
@@ -19011,7 +19011,7 @@ function ContactSection() {
                 }
               ),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-primary-foreground font-semibold text-base", children: "Modi Hospital Rd, near Liberty & Bata Showroom" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-primary-foreground font-semibold text-sm", children: "Modi Hospital Rd, near Liberty & Bata Showroom" }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-white text-sm mt-0.5", children: [
                   "West of Chord Road 2nd Stage, Rajajinagar, ",
                   /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
@@ -19051,7 +19051,7 @@ function ContactSection() {
               {
                 href: `tel:${PHONE$4}`,
                 "data-ocid": "contact.call_button",
-                className: "inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-base shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]",
+                className: "inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-sm shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]",
                 children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { size: 18, "aria-hidden": "true" }),
                   "Call Now — ",
@@ -19066,7 +19066,7 @@ function ContactSection() {
                 target: "_blank",
                 rel: "noopener noreferrer",
                 "data-ocid": "contact.whatsapp_button",
-                className: "inline-flex items-center justify-center gap-2.5 rounded-xl bg-whatsapp px-8 py-4 text-white font-bold text-base transition-smooth hover:bg-whatsapp-hover hover:scale-[1.03] active:scale-[0.98]",
+                className: "inline-flex items-center justify-center gap-2.5 rounded-xl bg-whatsapp px-8 py-4 text-white font-bold text-sm transition-smooth hover:bg-whatsapp-hover hover:scale-[1.03] active:scale-[0.98]",
                 children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx(SiWhatsapp, { size: 18, "aria-hidden": "true" }),
                   "Chat on WhatsApp"
@@ -19114,7 +19114,7 @@ function FloatingContactBar() {
           {
             href: `tel:${PHONE$3}`,
             "data-ocid": "floating_bar.call_button",
-            className: "flex-1 flex items-center justify-center gap-2.5 bg-accent text-white font-bold text-base py-4 transition-smooth hover:bg-accent/90 active:scale-[0.98]",
+            className: "flex-1 flex items-center justify-center gap-2.5 bg-accent text-white font-bold text-sm py-4 transition-smooth hover:bg-accent/90 active:scale-[0.98]",
             "aria-label": "Call Prakash Electronics",
             children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { size: 20, "aria-hidden": "true" }),
@@ -19130,7 +19130,7 @@ function FloatingContactBar() {
             target: "_blank",
             rel: "noopener noreferrer",
             "data-ocid": "floating_bar.whatsapp_button",
-            className: "flex-1 flex items-center justify-center gap-2.5 bg-whatsapp text-white font-bold text-base py-4 transition-smooth hover:bg-whatsapp-hover active:scale-[0.98]",
+            className: "flex-1 flex items-center justify-center gap-2.5 bg-whatsapp text-white font-bold text-sm py-4 transition-smooth hover:bg-whatsapp-hover active:scale-[0.98]",
             "aria-label": "Chat on WhatsApp",
             children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(SiWhatsapp, { size: 20, "aria-hidden": "true" }),
@@ -19159,7 +19159,7 @@ function Footer() {
               "aria-hidden": "true"
             }
           ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-xl tracking-tight", children: "Prakash Electronics" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-lg tracking-tight", children: "Prakash Electronics" })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-primary-foreground/60 text-sm leading-relaxed max-w-xs", children: "Your neighbourhood electronics expert since 1994. Trusted by thousands of families across Bengaluru." }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -19176,7 +19176,7 @@ function Footer() {
         )
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-base mb-4 text-primary-foreground/90", children: "Find Us" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-sm mb-4 text-primary-foreground/90", children: "Find Us" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2.5", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -19206,7 +19206,7 @@ function Footer() {
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-base mb-4 text-primary-foreground/90", children: "Quick Contact" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-sm mb-4 text-primary-foreground/90", children: "Quick Contact" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "a",
@@ -19275,7 +19275,7 @@ function Hero() {
           {
             className: "absolute inset-0 bg-cover bg-center bg-no-repeat",
             style: {
-              backgroundImage: "url('/assets/store-front.jpg')",
+              backgroundImage: "url('/assets/store-front-new.png')",
               filter: "brightness(1.1) contrast(1.15) saturate(1.2)"
             },
             "aria-hidden": "true"
@@ -19306,7 +19306,7 @@ function Hero() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "h1",
             {
-              className: "font-display font-bold text-white text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight max-w-3xl animate-slide-up",
+              className: "font-display font-bold text-white text-3xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight max-w-3xl animate-slide-up",
               style: { textShadow: "0 3px 12px rgba(0,0,0,0.8)" },
               children: [
                 "Bengaluru's Trusted",
@@ -19318,7 +19318,7 @@ function Hero() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "p",
             {
-              className: "mt-6 text-white text-lg sm:text-xl max-w-xl leading-relaxed animate-slide-up",
+              className: "mt-6 text-white text-base sm:text-xl max-w-xl leading-relaxed animate-slide-up",
               style: { textShadow: "0 2px 8px rgba(0,0,0,0.7)" },
               children: [
                 "TVs • Refrigerators • Washing Machines • ACs & More —",
@@ -19334,7 +19334,7 @@ function Hero() {
               {
                 href: `tel:${PHONE$1}`,
                 "data-ocid": "hero.call_button",
-                className: "inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-base shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]",
+                className: "inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-sm shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]",
                 children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { size: 18, "aria-hidden": "true" }),
                   "Call Us Now"
@@ -19348,7 +19348,7 @@ function Hero() {
                 target: "_blank",
                 rel: "noopener noreferrer",
                 "data-ocid": "hero.directions_button",
-                className: "inline-flex items-center justify-center gap-2.5 rounded-xl border-2 border-white/70 bg-white/10 px-8 py-4 text-white font-bold text-base backdrop-blur-sm transition-smooth hover:bg-white/20 hover:border-white active:scale-[0.98]",
+                className: "inline-flex items-center justify-center gap-2.5 rounded-xl border-2 border-white/70 bg-white/10 px-8 py-4 text-white font-bold text-sm backdrop-blur-sm transition-smooth hover:bg-white/20 hover:border-white active:scale-[0.98]",
                 children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 18, "aria-hidden": "true" }),
                   "Get Directions"
@@ -19446,9 +19446,9 @@ function CategoryCard({
     "div",
     {
       "data-ocid": `categories.item.${index2 + 1}`,
-      className: "group bg-card border border-border rounded-2xl p-6 flex flex-col gap-4 cursor-default transition-smooth hover:-translate-y-1 hover:shadow-xl hover:border-accent/30 hover:shadow-primary/10",
+      className: "group bg-card border border-border rounded-2xl p-4 flex flex-col gap-3 cursor-default transition-smooth hover:-translate-y-1 hover:shadow-xl hover:border-accent/30 hover:shadow-primary/10",
       children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center transition-smooth group-hover:bg-accent/10 group-hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center transition-smooth group-hover:bg-accent/10 group-hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
           Icon2,
           {
             size: 24,
@@ -19458,8 +19458,8 @@ function CategoryCard({
           }
         ) }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-foreground text-base leading-tight", children: category.name }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-1 text-muted-foreground text-sm leading-snug", children: category.description })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-foreground text-sm leading-tight", children: category.name }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-1 text-muted-foreground text-xs leading-snug", children: category.description })
         ] })
       ]
     }
@@ -19471,14 +19471,14 @@ function ProductCategories() {
     {
       id: "categories",
       "data-ocid": "categories.section",
-      className: "bg-background py-20 sm:py-28",
+      className: "bg-background py-10 sm:py-14",
       children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-14", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-8", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-accent font-semibold text-sm uppercase tracking-widest mb-3", children: "Our Range" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-foreground text-3xl sm:text-4xl lg:text-5xl", children: "What We Offer" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-muted-foreground text-lg max-w-xl mx-auto", children: "Top home appliances under one roof — trusted brands, best prices, expert service" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-foreground text-2xl sm:text-4xl lg:text-5xl", children: "What We Offer" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-muted-foreground text-base max-w-xl mx-auto", children: "Top home appliances under one roof — trusted brands, best prices, expert service" })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5", children: CATEGORIES.map((cat, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(CategoryCard, { category: cat, index: i }, cat.name)) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4", children: CATEGORIES.map((cat, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(CategoryCard, { category: cat, index: i }, cat.name)) })
       ] })
     }
   );
@@ -19508,7 +19508,7 @@ function StickyNav() {
                   "aria-hidden": "true"
                 }
               ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-lg tracking-tight leading-none", children: "Prakash Electronics" })
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display font-bold text-base tracking-tight leading-none", children: "Prakash Electronics" })
             ]
           }
         ),
@@ -19588,7 +19588,7 @@ function TrustBadges() {
       children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-14", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-accent font-semibold text-sm uppercase tracking-widest mb-3", children: "Why Choose Us" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-foreground text-3xl sm:text-4xl", children: "Why Choose Prakash Electronics" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display font-bold text-foreground text-2xl sm:text-4xl", children: "Why Choose Prakash Electronics" })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6", children: TRUST_CARDS.map((card, i) => {
           const Icon2 = card.icon;
@@ -19608,8 +19608,8 @@ function TrustBadges() {
                   }
                 ) }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-foreground text-lg", children: card.title }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-1.5 text-muted-foreground text-sm leading-snug", children: card.subtitle })
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-foreground text-base", children: card.title }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-1.5 text-muted-foreground text-xs leading-snug", children: card.subtitle })
                 ] })
               ]
             },

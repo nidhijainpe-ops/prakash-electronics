@@ -15,7 +15,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/assets/store-front.jpg')",
+          backgroundImage: "url('/assets/store-front-new.png')",
           filter: "brightness(1.1) contrast(1.15) saturate(1.2)",
         }}
         aria-hidden="true"
@@ -42,7 +42,7 @@ export default function Hero() {
 
         {/* Headline */}
         <h1
-          className="font-display font-bold text-white text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight max-w-3xl animate-slide-up"
+          className="font-display font-bold text-white text-3xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight max-w-3xl animate-slide-up"
           style={{ textShadow: "0 3px 12px rgba(0,0,0,0.8)" }}
         >
           Bengaluru's Trusted{" "}
@@ -51,7 +51,7 @@ export default function Hero() {
 
         {/* Subheading */}
         <p
-          className="mt-6 text-white text-lg sm:text-xl max-w-xl leading-relaxed animate-slide-up"
+          className="mt-6 text-white text-base sm:text-xl max-w-xl leading-relaxed animate-slide-up"
           style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}
         >
           TVs • Refrigerators • Washing Machines • ACs &amp; More —{" "}
@@ -64,7 +64,7 @@ export default function Hero() {
           <a
             href={`tel:${PHONE}`}
             data-ocid="hero.call_button"
-            className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-base shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]"
+            className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-sm shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]"
           >
             <Phone size={18} aria-hidden="true" />
             Call Us Now
@@ -74,7 +74,7 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             data-ocid="hero.directions_button"
-            className="inline-flex items-center justify-center gap-2.5 rounded-xl border-2 border-white/70 bg-white/10 px-8 py-4 text-white font-bold text-base backdrop-blur-sm transition-smooth hover:bg-white/20 hover:border-white active:scale-[0.98]"
+            className="inline-flex items-center justify-center gap-2.5 rounded-xl border-2 border-white/70 bg-white/10 px-8 py-4 text-white font-bold text-sm backdrop-blur-sm transition-smooth hover:bg-white/20 hover:border-white active:scale-[0.98]"
           >
             <MapPin size={18} aria-hidden="true" />
             Get Directions

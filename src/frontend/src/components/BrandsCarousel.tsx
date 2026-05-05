@@ -69,7 +69,7 @@ export default function BrandsCarousel() {
                 className="flex-shrink-0 px-2"
               >
                 <span
-                  className="font-display font-bold text-2xl sm:text-3xl tracking-tight text-muted-foreground transition-smooth hover:text-primary cursor-default"
+                  className="font-display font-bold text-xl sm:text-3xl tracking-tight text-muted-foreground transition-smooth hover:text-primary cursor-default"
                   style={{
                     filter: "grayscale(100%)",
                     transitionProperty: "filter, color",

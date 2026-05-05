@@ -21,7 +21,7 @@ export default function ContactSection() {
             <p className="text-accent font-semibold text-sm uppercase tracking-widest mb-4">
               Find Us
             </p>
-            <h2 className="font-display font-bold text-primary-foreground text-3xl sm:text-4xl lg:text-5xl leading-tight">
+            <h2 className="font-display font-bold text-primary-foreground text-2xl sm:text-4xl lg:text-5xl leading-tight">
               Visit Us or <span className="text-accent">Get in Touch</span>
             </h2>
 
@@ -34,7 +34,7 @@ export default function ContactSection() {
                   aria-hidden="true"
                 />
                 <div>
-                  <p className="text-primary-foreground font-semibold text-base">
+                  <p className="text-primary-foreground font-semibold text-sm">
                     Modi Hospital Rd, near Liberty &amp; Bata Showroom
                   </p>
                   <p className="text-white text-sm mt-0.5">
@@ -79,7 +79,7 @@ export default function ContactSection() {
               <a
                 href={`tel:${PHONE}`}
                 data-ocid="contact.call_button"
-                className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-base shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]"
+                className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-accent px-8 py-4 text-white font-bold text-sm shadow-lg transition-smooth hover:scale-[1.03] hover:shadow-accent/30 hover:shadow-xl active:scale-[0.98]"
               >
                 <Phone size={18} aria-hidden="true" />
                 Call Now — {PHONE_DISPLAY}
@@ -89,7 +89,7 @@ export default function ContactSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-ocid="contact.whatsapp_button"
-                className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-whatsapp px-8 py-4 text-white font-bold text-base transition-smooth hover:bg-whatsapp-hover hover:scale-[1.03] active:scale-[0.98]"
+                className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-whatsapp px-8 py-4 text-white font-bold text-sm transition-smooth hover:bg-whatsapp-hover hover:scale-[1.03] active:scale-[0.98]"
               >
                 <SiWhatsapp size={18} aria-hidden="true" />
                 Chat on WhatsApp

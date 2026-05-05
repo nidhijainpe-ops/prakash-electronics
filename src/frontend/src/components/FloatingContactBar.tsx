@@ -14,7 +14,7 @@ export default function FloatingContactBar() {
       <a
         href={`tel:${PHONE}`}
         data-ocid="floating_bar.call_button"
-        className="flex-1 flex items-center justify-center gap-2.5 bg-accent text-white font-bold text-base py-4 transition-smooth hover:bg-accent/90 active:scale-[0.98]"
+        className="flex-1 flex items-center justify-center gap-2.5 bg-accent text-white font-bold text-sm py-4 transition-smooth hover:bg-accent/90 active:scale-[0.98]"
         aria-label="Call Prakash Electronics"
       >
         <Phone size={20} aria-hidden="true" />
@@ -26,7 +26,7 @@ export default function FloatingContactBar() {
         target="_blank"
         rel="noopener noreferrer"
         data-ocid="floating_bar.whatsapp_button"
-        className="flex-1 flex items-center justify-center gap-2.5 bg-whatsapp text-white font-bold text-base py-4 transition-smooth hover:bg-whatsapp-hover active:scale-[0.98]"
+        className="flex-1 flex items-center justify-center gap-2.5 bg-whatsapp text-white font-bold text-sm py-4 transition-smooth hover:bg-whatsapp-hover active:scale-[0.98]"
         aria-label="Chat on WhatsApp"
       >
         <SiWhatsapp size={20} aria-hidden="true" />

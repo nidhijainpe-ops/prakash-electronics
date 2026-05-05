@@ -85,9 +85,9 @@ function CategoryCard({
   return (
     <div
       data-ocid={`categories.item.${index + 1}`}
-      className="group bg-card border border-border rounded-2xl p-6 flex flex-col gap-4 cursor-default transition-smooth hover:-translate-y-1 hover:shadow-xl hover:border-accent/30 hover:shadow-primary/10"
+      className="group bg-card border border-border rounded-2xl p-4 flex flex-col gap-3 cursor-default transition-smooth hover:-translate-y-1 hover:shadow-xl hover:border-accent/30 hover:shadow-primary/10"
     >
-      <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center transition-smooth group-hover:bg-accent/10 group-hover:scale-110">
+      <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center transition-smooth group-hover:bg-accent/10 group-hover:scale-110">
         <Icon
           size={24}
           className="text-primary/70 transition-smooth group-hover:text-accent"
@@ -96,10 +96,10 @@ function CategoryCard({
         />
       </div>
       <div>
-        <h3 className="font-display font-bold text-foreground text-base leading-tight">
+        <h3 className="font-display font-bold text-foreground text-sm leading-tight">
           {category.name}
         </h3>
-        <p className="mt-1 text-muted-foreground text-sm leading-snug">
+        <p className="mt-1 text-muted-foreground text-xs leading-snug">
           {category.description}
         </p>
       </div>
@@ -112,25 +112,25 @@ export default function ProductCategories() {
     <section
       id="categories"
       data-ocid="categories.section"
-      className="bg-background py-20 sm:py-28"
+      className="bg-background py-10 sm:py-14"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-8">
           <p className="text-accent font-semibold text-sm uppercase tracking-widest mb-3">
             Our Range
           </p>
-          <h2 className="font-display font-bold text-foreground text-3xl sm:text-4xl lg:text-5xl">
+          <h2 className="font-display font-bold text-foreground text-2xl sm:text-4xl lg:text-5xl">
             What We Offer
           </h2>
-          <p className="mt-4 text-muted-foreground text-lg max-w-xl mx-auto">
+          <p className="mt-4 text-muted-foreground text-base max-w-xl mx-auto">
             Top home appliances under one roof — trusted brands, best prices,
             expert service
           </p>
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
           {CATEGORIES.map((cat, i) => (
             <CategoryCard key={cat.name} category={cat} index={i} />
           ))}

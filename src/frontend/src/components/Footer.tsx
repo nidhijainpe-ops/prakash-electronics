@@ -19,7 +19,7 @@ export default function Footer() {
                 className="text-accent fill-accent"
                 aria-hidden="true"
               />
-              <span className="font-display font-bold text-xl tracking-tight">
+              <span className="font-display font-bold text-lg tracking-tight">
                 Prakash Electronics
               </span>
             </div>
@@ -39,7 +39,7 @@ export default function Footer() {
 
           {/* Address column */}
           <div>
-            <h3 className="font-display font-bold text-base mb-4 text-primary-foreground/90">
+            <h3 className="font-display font-bold text-sm mb-4 text-primary-foreground/90">
               Find Us
             </h3>
             <div className="space-y-3">
@@ -72,7 +72,7 @@ export default function Footer() {
 
           {/* Quick actions column */}
           <div>
-            <h3 className="font-display font-bold text-base mb-4 text-primary-foreground/90">
+            <h3 className="font-display font-bold text-sm mb-4 text-primary-foreground/90">
               Quick Contact
             </h3>
             <div className="flex flex-col gap-3">

@@ -42,7 +42,7 @@ export default function TrustBadges() {
           <p className="text-accent font-semibold text-sm uppercase tracking-widest mb-3">
             Why Choose Us
           </p>
-          <h2 className="font-display font-bold text-foreground text-3xl sm:text-4xl">
+          <h2 className="font-display font-bold text-foreground text-2xl sm:text-4xl">
             Why Choose Prakash Electronics
           </h2>
         </div>
@@ -65,10 +65,10 @@ export default function TrustBadges() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-display font-bold text-foreground text-lg">
+                  <h3 className="font-display font-bold text-foreground text-base">
                     {card.title}
                   </h3>
-                  <p className="mt-1.5 text-muted-foreground text-sm leading-snug">
+                  <p className="mt-1.5 text-muted-foreground text-xs leading-snug">
                     {card.subtitle}
                   </p>
                 </div>
